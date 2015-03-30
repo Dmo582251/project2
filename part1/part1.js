@@ -1,10 +1,17 @@
-var a =1 ;
-
-function dosomething(){
-if(a=1){
-   document.getElementById('').innerHTML='x';
-}else{
-   document.getElementById('').innerHTML='O';
-}
-a=0;
-}
+$(document).ready(function(){
+  
+  var theturn = 'x';
+  
+  $('td').on('click', function(){
+    
+    if(theturn=='x'){
+      $(this).text("x");
+      theturn = 'o';
+    }
+    else{
+      $(this).text("o");
+      theturn = 'x';
+    }
+  
+  }); 
+});

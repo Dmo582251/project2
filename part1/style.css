@@ -4,4 +4,21 @@ height: 200px;
 width: 200px;
 }
 
-
+body{
+font-family: 'Diplomata', cursive;
+background-color: #a9e2fc;
+color: #40363c;
+font-size: 20px;
+}
+.x{
+  color:red;
+  height: 180px;
+  width: 180px;
+}
+.tr1,.tr2,.tr3{
+  font-family: 'Diplomata', cursive;
+  font-size: 150px;
+  color: #40363c;
+  text-align: center;
+  
+}
